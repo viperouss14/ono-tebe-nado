@@ -253,7 +253,7 @@ text-underline-offset: 0.2em;
   margin: 0 50px 180px 50px;
 }
 
-.about__container  {
+.about__container {
   display: flex;
   justify-content: center;
 }
