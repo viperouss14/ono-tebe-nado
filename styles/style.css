@@ -11,7 +11,7 @@
 
 .header__links-list {
   display: flex;
-  flex-wrap: wrap; /*в задании этого нет, но подумал если будет много пунктов, то лучше, чтобы они переносились на маленьком экране*/
+  flex-wrap: wrap;
   gap: 32px;
   list-style: circle;
 }
@@ -58,7 +58,7 @@
   max-width: 240px;
 }
 
-.adress__link {
+.address__link {
   display: block;
   width: max-content;
 }
@@ -97,8 +97,6 @@
 }
 
 .aligned-text_center {
-  display: block;
-  margin-right: 60px;
   text-align: center;
   line-height: 100px;
 }
