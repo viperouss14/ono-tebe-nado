@@ -236,21 +236,16 @@
 
 .about {
   display: grid;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 1fr 2fr;
   justify-items: center;
-  margin: 0 50px 180px 50px;
+  margin: 0 50px 180px 40px;
   padding-bottom: 4px;
-}
-
-.about__container {
-  display: flex;
-  justify-content: center;
 }
 
 .about__column {
   display: flex;
   gap: 100px;
-  margin: 100px 0 0 25px;
+  margin: 100px 0 0 15px;
   flex-direction: column;
 }
 
